@@ -10,7 +10,7 @@ public class RefuelCar {
 
 		if (oilBox > 10) // 주유할 오일이 있는지 확인
 		{
-			oilBox -= 10;
+			oilBox -= 10; // 10L씩 주유함
 		}else 
 		{
 			return 0;

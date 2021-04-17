@@ -32,9 +32,9 @@ public class Car
 	void endEngine() // 시동 끔
 	{
 		
-		// 시동 끔
+		// 시동 끔 
 		engineState = false; 
-		// 현재 상태 출력
+		// 현재 상태 출력 
 		System.out.println("시동이 꺼졌습니다.");
 		
 	}
@@ -48,20 +48,21 @@ public class Car
 				speed += 10; // 속력이 늘어남
 				--oilBox; // 속력이 늘어날때마다 오일이 줄음
 				System.out.println("현재 속력 : " + speed);
+				System.out.println("현재 남은 오일 : " + oilBox);
 			}
 			
 		}
 		else 
 		{
-			endEngine();
+			endEngine(); // 엔진 다운
 		}
 		
 		
 	}
 	
-	void inputOil(RefuelCar refuelcar) 
+	void inputOil(RefuelCar refuelcar) // 주유차
 	{
-		oilBox = refuelcar.getOil();
+		oilBox = refuelcar.getOil(); // 주유
 	}
 
 }
