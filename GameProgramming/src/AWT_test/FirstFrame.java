@@ -1,6 +1,6 @@
 //20210416_gameProgramming
 
-package awt_test;
+package AWT_test;
 
 import java.awt.Frame;
 import java.awt.event.WindowAdapter;
