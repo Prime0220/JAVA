@@ -11,7 +11,7 @@ public class FirstFrame extends Frame
 	
 	public FirstFrame() 
 	{
-		setTitle(" 첫번째 프레임 ");
+		super(" 첫번째 프레임 ");
 		setSize(400,400);
 		setVisible(true);	
 		
@@ -29,6 +29,7 @@ public class FirstFrame extends Frame
 	public static void main(String[] args) 
 	{
 		new FirstFrame();
+		
 	}
 	
 }
